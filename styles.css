@@ -210,7 +210,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    min-height: 90vh;
     background-color: #141414;
     z-index: 1;
     width: 100%;
@@ -306,7 +306,7 @@
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: 90vh;
+        min-height: 90vh;
     }
 
     .main__content {
@@ -326,6 +326,10 @@
     .main__content p {
         margin-top: 1rem;
         font-size: 1.5rem;
+    }
+
+    .main__img-container {
+        margin-bottom: 4rem;
     }
 }
 
@@ -356,7 +360,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .services h1 {
@@ -433,12 +437,12 @@
 
 @media screen and (max-width: 960px) {
     .services {
-        height: 1600px;
+        /* height: 1600px; */
     }
 
     .services h1 {
         font-size: 2rem;
-        margin-top: 12rem;
+        margin-top: 2rem;
     }
 }
 
